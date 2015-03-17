@@ -1,0 +1,7 @@
+%h1 All of the articles
+
+- @articles.each do |article|
+    %h2 Article Title:
+    %h3=article.title
+    %h2 Article Text:
+    %h3=article.text
